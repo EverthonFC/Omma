@@ -98,7 +98,34 @@ a {
     color: aliceblue;
     
 }
-    
+
+.titulo-receitas-da-semana{
+    color: #FFA000;
+    font-size: 55px;
+    font-weight: 700;
+    margin: 74px 0 40px;
+    text-align: center;
+}
+
+.lista-receitas-da-semana{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.item-receitas-da-semana{
+    max-width:466px;
+    max-height:449px;
+    width: auto;
+    height: auto;
+    border: black solid 2px;
+    text-align: center;
+    margin: 30px 0 158px;
+}
+.img-receitas-da-semana{
+    width: 345px;
+    height: 342px;
+}
 
 .rodape{
     background-color: #FFC107;
