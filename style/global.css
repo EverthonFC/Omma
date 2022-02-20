@@ -9,6 +9,7 @@ a {
 }
 
 .cabeçalho{
+    
     background-color: #FFC107;
     text-align: center;
     align-items: center;
@@ -36,11 +37,77 @@ a {
     color: aliceblue;
     margin: 12px 24px;
     font-weight: 700;
-
     
 }
 
 .menu-itens a  {
     color: aliceblue;
     
+}
+
+.banner-principal{
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img-banner-principal {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.texto-banner-principal{
+    position: absolute;
+    font-size: 70px;
+    color: aliceblue;
+    text-shadow: -3px 4px 8px black;
+}
+
+
+.banner-secundario{
+    display: flex;
+    position: relative; 
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img-banner-secundario {
+    
+    max-width: 100%;
+    max-height: 100%;
+    box-shadow: 0px 3px 0px black;
+
+}
+
+.titulo-banner-secundario{
+    position: absolute;
+    bottom: 452px;
+    left: 63px;
+    font-size: 65px;
+    color: aliceblue;
+    
+}
+
+.texto-banner-secundario{
+    position: absolute;
+    bottom: 180px;
+    left: 63px;
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+    
+
+.rodape{
+    background-color: #FFC107;
+    display: flex;
+    align-items: center;
+}
+
+.copyrigth{
+    font-size: 18px;
+    font-weight: 700;
+    color: aliceblue;
 }
